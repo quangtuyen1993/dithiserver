@@ -6,7 +6,7 @@ const app = express();
 
 
 //connect db
-require("./src/db/index")
+// require("./src/db/index")
 //routes
 const UserRoute=require("./src/routes/user.route")
 const ProductRoute=require("./src/routes/product.route")
